@@ -1,0 +1,61 @@
+/* Navbar background */
+.custom-navbar{
+    background: linear-gradient(90deg,#000000,#111111);
+    padding: 14px 30px;
+}
+
+/* Logo style */
+.logo{
+    font-size: 28px;
+    font-weight: 600;
+    color: #ffd700 !important;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+/* Logo hover */
+.logo:hover{
+    color: #fff200 !important;
+    text-shadow: 0px 0px 10px #ffd700;
+}
+
+/* Menu container */
+.nav-menu li{
+    margin: 0 12px;
+}
+
+/* Nav items */
+.nav-item-custom{
+    color: white !important;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    transition: 0.3s ease;
+}
+
+/* Hover color */
+.nav-item-custom:hover{
+    color: #ffd700 !important;
+    transform: translateY(-2px);
+}
+
+/* Animated underline */
+.nav-item-custom::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: -5px;
+    background: #ffd700;
+    transition: 0.3s ease;
+}
+
+.nav-item-custom:hover::after{
+    width: 100%;
+}
+
+/* Smooth hover glow */
+.nav-item-custom:hover{
+    text-shadow: 0 0 8px rgba(255,215,0,0.7);
+}

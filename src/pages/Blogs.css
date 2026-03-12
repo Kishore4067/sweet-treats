@@ -1,0 +1,67 @@
+.blogs-section {
+  background-color: #1b1b1b; /* dark chocolate background */
+  padding: 60px 0;
+  min-height: 100vh;
+}
+
+.blog-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #d69f6d; /* caramel accent color */
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* Blog Card */
+.blog-card {
+  background-color: #2b1f1f; /* darker chocolate card */
+  border-radius: 15px;
+  padding: 1.5rem;
+  color: #fff;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(214,159,109,0.5); /* caramel glow */
+}
+
+/* Card Body */
+.blog-card-title {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #f2c38f; /* light chocolate title */
+}
+
+.blog-card-text {
+  font-size: 0.95rem;
+  color: #ddd; /* light text */
+  margin-bottom: 15px;
+}
+
+/* Read More Button */
+.read-btn {
+  background: linear-gradient(135deg, #d69f6d, #b36b2f); /* chocolate gradient */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.read-btn:hover {
+  background: linear-gradient(135deg, #b36b2f, #d69f6d);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(214,159,109,0.5);
+}
+
+/* Card Footer */
+.blog-card-footer {
+  font-size: 0.85rem;
+  color: #ccc;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
